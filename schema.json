@@ -1,0 +1,12 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string"},
+            "zodiac": {"type": "string"},
+            "daytime": {"type": "string", "format": "date"}
+        },
+        "required": ["name", "zodiac", "daytime"]
+    }
+}
